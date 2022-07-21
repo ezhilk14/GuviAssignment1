@@ -27,11 +27,6 @@ Example:
 After creating myCar object, the value inside the object can be accessed using keys.
 
 
-
-
-
-
-
 Example Output:
 
 1.myBike.year
