@@ -1,0 +1,42 @@
+write about objects and its internal representation in java script
+
+Object:
+
+definition: Object is Intance of class, which is a stand alone entity with properties and types.
+
+-Objects are important data types in javascript.
+-Objects too are variables but contain many values.
+-Objects are different than primitive datatypes. 
+-Objects can hold many values in form of Key: value pair. 
+-These keys can be variables or functions and are called properties and methods.
+
+Every object has some property associated with some value. These values can be accessed using these properties.
+
+Example:
+
+		var myBike = new Object();
+
+		myBike.make= 'Honda';
+
+		myBike.model = 'Peppy';
+
+		myBike.year = 2022;
+
+		myBike.wheels = 2;
+
+After creating myCar object, the value inside the object can be accessed using keys.
+
+
+
+
+
+
+
+Example Output:
+
+1.myBike.year
+Output: 2022
+
+
+2.myBike.wheels
+Output:2

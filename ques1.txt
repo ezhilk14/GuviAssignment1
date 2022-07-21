@@ -1,0 +1,32 @@
+Difference between HTTP1.11 vs HTTP2
+
+HTTP1.1 			
+-Started in the year 1997.
+-Defines 24 stsuts code, error reporting is quicker and easier.
+-Uses digest authentication which is relatively secure.		
+-It works on textual Format.
+-Data compression takes place on its own.
+-For multiple pages it uses request resource inlining.
+-Until getting all resources the request will be blocked by the head block.
+-Provides faster delivery of web pages and reduces web traffic.
+
+
+
+
+
+HTTP2
+-Started in the year 2015.
+-Underlying semantics of HTTP such as headers, status codes remains the same.
+-Uses digest authentication which is relatively secure.
+-It works on Binary format.
+-Data compression take place with HPACK.
+-For multiple pages it uses PUSH frame by server.
+-For multiple request connection it uses TCP connection and allows multiplexing.
+-Utilizes multiplexing and sever push to effectively reduce the page load time.
+
+			
+			
+			
+			
+			
+
